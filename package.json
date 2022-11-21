@@ -1,7 +1,7 @@
 {
   "name": "test-app",
   "version": "0.1.0",
-  "homepage": "https://github.com/Anna5756855/test-messager",
+  "homepage": "https://anna5756855.github.io/test-messager",
   "private": true,
   "dependencies": {
     "@reduxjs/toolkit": "^1.8.5",
