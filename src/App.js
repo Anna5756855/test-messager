@@ -1,25 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import styles from './App.module.css';
+import React from 'react';
+import ChatContainer from './components/Chat/ChatContainer';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
-
+function App(props) {
+  return ( 
+  <div className={styles.main}>
+    <ChatContainer /> 
+  </div> ) }
+//store={props.store} 
 export default App;
+
+// <ChatContainer store={props.store} /> 
+//<ChatContainer state={props.state} dispatch={props.dispatch} />
